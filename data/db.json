@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Marcus Sterling",
+      "email": "marcus@resolvehq.internal",
+      "role": "admin",
+      "department": "IT Infrastructure",
+      "jobTitle": "VP of IT Operations",
+      "createdAt": "2026-01-15T08:00:00Z"
+    },
+    {
+      "id": "usr_agent_1",
+      "name": "Sarah Chen",
+      "email": "sarah.chen@resolvehq.internal",
+      "role": "agent",
+      "department": "Tier-2 Support",
+      "jobTitle": "Senior Systems Specialist",
+      "createdAt": "2026-02-01T09:30:00Z"
+    },
+    {
+      "id": "usr_agent_2",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@resolvehq.internal",
+      "role": "agent",
+      "department": "Network Operations",
+      "jobTitle": "Network & Security Engineer",
+      "createdAt": "2026-02-10T10:15:00Z"
+    },
+    {
+      "id": "usr_emp_1",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@acmecorp.com",
+      "role": "employee",
+      "department": "Product Design",
+      "jobTitle": "Lead Product Designer",
+      "createdAt": "2026-03-01T11:00:00Z"
+    },
+    {
+      "id": "usr_emp_2",
+      "name": "David Kim",
+      "email": "david.kim@acmecorp.com",
+      "role": "employee",
+      "department": "Engineering",
+      "jobTitle": "Staff Backend Engineer",
+      "createdAt": "2026-03-12T14:20:00Z"
+    }
+  ],
+  "tickets": [],
+  "comments": [],
+  "activities": [],
+  "notifications": []
+}

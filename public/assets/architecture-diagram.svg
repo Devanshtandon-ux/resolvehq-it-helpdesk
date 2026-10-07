@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1000" height="460" fill="#0B0F17" rx="16" />
+
+  <!-- Title Header -->
+  <text x="50" y="45" fill="#FFFFFF" font-size="20" font-weight="800" class="sans">ResolveHQ Full-Stack Architecture</text>
+  <text x="50" y="65" fill="#94A3B8" font-size="12" class="sans">End-to-End Request, RBAC Authentication, and AI Diagnostics Pipeline</text>
+
+  <!-- Block 1: Client Layer -->
+  <g transform="translate(50, 95)">
+    <rect width="260" height="310" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1.2" />
+    <rect x="0" y="0" width="260" height="40" rx="12" fill="#1E1B4B" />
+    <text x="20" y="25" fill="#818CF8" font-size="12" font-weight="700" class="mono">01 · CLIENT SPA LAYER</text>
+    
+    <!-- Items -->
+    <g transform="translate(20, 60)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">React 19 &amp; Vite 8 SPA</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">High performance modular hooks</text>
+    </g>
+
+    <g transform="translate(20, 115)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Tailwind CSS v4 + Themes</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">5 Presets + Custom Hex Tint Engine</text>
+    </g>
+
+    <g transform="translate(20, 170)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Recharts &amp; SLA Countdowns</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">Live operational metric telemetry</text>
+    </g>
+
+    <g transform="translate(20, 225)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Confetti &amp; Motion UI</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">Delightful resolution animations</text>
+    </g>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M310 250 L370 250" stroke="url(#lineGrad)" stroke-width="2.5" stroke-dasharray="5 5" />
+  <polygon points="368,245 378,250 368,255" fill="#A855F7" />
+
+  <!-- Block 2: Express Server & RBAC -->
+  <g transform="translate(370, 95)">
+    <rect width="260" height="310" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1.2" />
+    <rect x="0" y="0" width="260" height="40" rx="12" fill="#312E81" />
+    <text x="20" y="25" fill="#A5B4FC" font-size="12" font-weight="700" class="mono">02 · SERVER &amp; RBAC API</text>
+
+    <!-- Items -->
+    <g transform="translate(20, 60)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Express.js + TypeScript</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">Modular REST API controllers</text>
+    </g>
+
+    <g transform="translate(20, 115)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Multi-Role RBAC Middleware</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">Admin · Agent · Employee isolation</text>
+    </g>
+
+    <g transform="translate(20, 170)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">SLA Deadline Calculator</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">Dynamic countdown &amp; breach detection</text>
+    </g>
+
+    <g transform="translate(20, 225)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Audit Log &amp; Activity Stream</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">Immutable event timeline tracking</text>
+    </g>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M630 250 L690 250" stroke="url(#lineGrad)" stroke-width="2.5" stroke-dasharray="5 5" />
+  <polygon points="688,245 698,250 688,255" fill="#EC4899" />
+
+  <!-- Block 3: Services & Data Persistence -->
+  <g transform="translate(690, 95)">
+    <rect width="260" height="310" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1.2" />
+    <rect x="0" y="0" width="260" height="40" rx="12" fill="#500724" />
+    <text x="20" y="25" fill="#F472B6" font-size="12" font-weight="700" class="mono">03 · AI ENGINE &amp; STORE</text>
+
+    <!-- Items -->
+    <g transform="translate(20, 60)">
+      <rect width="220" height="52" rx="8" fill="#0F172A" stroke="#831843" stroke-width="1.2" />
+      <text x="12" y="20" fill="#FB7185" font-size="12" font-weight="700" class="sans">Gemini 2.5 Flash SDK</text>
+      <text x="12" y="34" fill="#E2E8F0" font-size="10" class="sans">Auto-Triage &amp; Categorization</text>
+      <text x="12" y="46" fill="#64748B" font-size="9" class="sans">Root Cause Analysis Diagnostic</text>
+    </g>
+
+    <g transform="translate(20, 122)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Persistent JSON Data Store</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">MongoDB/Mongoose parity schema</text>
+    </g>
+
+    <g transform="translate(20, 177)">
+      <rect width="220" height="45" rx="8" fill="#0F172A" stroke="#1E293B" />
+      <text x="12" y="20" fill="#F8FAFC" font-size="12" font-weight="600" class="sans">Instant Clean Slate Demo</text>
+      <text x="12" y="34" fill="#64748B" font-size="10" class="sans">1-Click wipe to 0 for live demos</text>
+    </g>
+
+    <g transform="translate(20, 232)">
+      <rect width="220" height="38" rx="8" fill="#14532D" fill-opacity="0.3" stroke="#16A34A" stroke-width="0.8" />
+      <text x="12" y="22" fill="#4ADE80" font-size="11" font-weight="700" class="mono">✓ 100% Type-Safe &amp; Tested</text>
+    </g>
+  </g>
+</svg>

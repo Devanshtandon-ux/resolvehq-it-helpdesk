@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="33%" stop-color="#7C3AED" />
+      <stop offset="66%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1000" height="360" fill="#0B0F19" rx="16" />
+
+  <!-- Section Title -->
+  <text x="40" y="42" fill="#FFFFFF" font-size="18" font-weight="800" class="sans">Incident Lifecycle &amp; Dynamic SLA Engine</text>
+  <text x="40" y="62" fill="#94A3B8" font-size="11" class="sans">From prompt AI intake through root-cause analysis to SLA resolution confirmation</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(40, 95)">
+    <rect width="200" height="220" rx="12" fill="#111827" stroke="#374151" stroke-width="1.2" />
+    <circle cx="30" cy="30" r="14" fill="#4F46E5" />
+    <text x="30" y="35" fill="#FFFFFF" font-size="12" font-weight="800" class="mono" text-anchor="middle">1</text>
+    <text x="55" y="34" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">Incident Creation</text>
+
+    <text x="16" y="70" fill="#94A3B8" font-size="11" class="sans">• Employee / Admin intake</text>
+    <text x="16" y="90" fill="#94A3B8" font-size="11" class="sans">• Hardware, VPN, DB issues</text>
+    <text x="16" y="110" fill="#94A3B8" font-size="11" class="sans">• Attachment &amp; notes</text>
+
+    <rect x="14" y="150" width="172" height="50" rx="8" fill="#1F2937" stroke="#374151" />
+    <text x="24" y="170" fill="#818CF8" font-size="10" font-weight="700" class="mono">STATUS: OPEN</text>
+    <text x="24" y="188" fill="#64748B" font-size="10" class="sans">Assigned ticket ID (RHQ-####)</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M245 205 L280 205" stroke="#4F46E5" stroke-width="2" stroke-dasharray="4 4" />
+  <polygon points="278,201 286,205 278,209" fill="#4F46E5" />
+
+  <!-- Step 2 -->
+  <g transform="translate(285, 95)">
+    <rect width="200" height="220" rx="12" fill="#111827" stroke="#6366F1" stroke-width="1.2" />
+    <circle cx="30" cy="30" r="14" fill="#7C3AED" />
+    <text x="30" y="35" fill="#FFFFFF" font-size="12" font-weight="800" class="mono" text-anchor="middle">2</text>
+    <text x="55" y="34" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">AI Auto-Triage</text>
+
+    <text x="16" y="70" fill="#94A3B8" font-size="11" class="sans">• Gemini 2.5 Flash analysis</text>
+    <text x="16" y="90" fill="#94A3B8" font-size="11" class="sans">• Auto-suggest category</text>
+    <text x="16" y="110" fill="#94A3B8" font-size="11" class="sans">• Urgency classification</text>
+
+    <rect x="14" y="150" width="172" height="50" rx="8" fill="#1E1B4B" stroke="#4338CA" />
+    <text x="24" y="170" fill="#C084FC" font-size="10" font-weight="700" class="mono">✨ AUTO ENHANCE</text>
+    <text x="24" y="188" fill="#A5B4FC" font-size="10" class="sans">Calculates SLA Target Clock</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M490 205 L525 205" stroke="#7C3AED" stroke-width="2" stroke-dasharray="4 4" />
+  <polygon points="523,201 531,205 523,209" fill="#7C3AED" />
+
+  <!-- Step 3 -->
+  <g transform="translate(530, 95)">
+    <rect width="200" height="220" rx="12" fill="#111827" stroke="#374151" stroke-width="1.2" />
+    <circle cx="30" cy="30" r="14" fill="#2563EB" />
+    <text x="30" y="35" fill="#FFFFFF" font-size="12" font-weight="800" class="mono" text-anchor="middle">3</text>
+    <text x="55" y="34" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">Investigation</text>
+
+    <text x="16" y="70" fill="#94A3B8" font-size="11" class="sans">• Tier-2 agent assignment</text>
+    <text x="16" y="90" fill="#94A3B8" font-size="11" class="sans">• Internal engineer notes</text>
+    <text x="16" y="110" fill="#94A3B8" font-size="11" class="sans">• AI Diagnostic Assistant</text>
+
+    <rect x="14" y="150" width="172" height="50" rx="8" fill="#1F2937" stroke="#374151" />
+    <text x="24" y="170" fill="#60A5FA" font-size="10" font-weight="700" class="mono">STATUS: IN PROGRESS</text>
+    <text x="24" y="188" fill="#64748B" font-size="10" class="sans">Live SLA countdown active</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <path d="M735 205 L770 205" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 4" />
+  <polygon points="768,201 776,205 768,209" fill="#2563EB" />
+
+  <!-- Step 4 -->
+  <g transform="translate(775, 95)">
+    <rect width="185" height="220" rx="12" fill="#111827" stroke="#059669" stroke-width="1.2" />
+    <circle cx="30" cy="30" r="14" fill="#059669" />
+    <text x="30" y="35" fill="#FFFFFF" font-size="12" font-weight="800" class="mono" text-anchor="middle">4</text>
+    <text x="55" y="34" fill="#F8FAFC" font-size="13" font-weight="700" class="sans">Resolution</text>
+
+    <text x="16" y="70" fill="#94A3B8" font-size="11" class="sans">• Customer resolution note</text>
+    <text x="16" y="90" fill="#94A3B8" font-size="11" class="sans">• Confetti celebration</text>
+    <text x="16" y="110" fill="#94A3B8" font-size="11" class="sans">• MTTR analytics update</text>
+
+    <rect x="14" y="150" width="157" height="50" rx="8" fill="#064E3B" fill-opacity="0.5" stroke="#059669" />
+    <text x="24" y="170" fill="#34D399" font-size="10" font-weight="700" class="mono">✓ SLA COMPLIANT</text>
+    <text x="24" y="188" fill="#A7F3D0" font-size="10" class="sans">Recorded in audit log</text>
+  </g>
+</svg>

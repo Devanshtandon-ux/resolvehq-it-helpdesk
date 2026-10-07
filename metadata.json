@@ -1,0 +1,6 @@
+{
+  "name": "ResolveHQ - IT Help Desk & Ticket Management SaaS",
+  "description": "ResolveHQ is a production-grade IT Help Desk and Ticket Management SaaS platform for modern teams to capture, assign, prioritize, track, and resolve IT requests seamlessly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
